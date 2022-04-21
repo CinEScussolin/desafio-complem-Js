@@ -1,36 +1,36 @@
-let nota1; 
+let nota1;
 let nota2;
 let nota3;
 
-do{
+do {
     prompt("Ingrese nota del primer trimestre");
-    if ((nota1 >=0) && (nota1 <=10));
+    if ((nota1 >= 0) && (nota1 <= 10));
     break;
-}while ((nota1 < 0) || (nota1 > 10));
+} while ((nota1 < 0) || (nota1 > 10));
 
-do{
+do {
     prompt("Ingrese nota del segundo trimestre");
-    if ((nota2 >=0) && (nota2 <=10));
+    if ((nota2 >= 0) && (nota2 <= 10));
     break;
-}while ((nota2 <0) || (nota2 >10));
+} while ((nota2 < 0) || (nota2 > 10));
 
-do{
+do {
     prompt("Ingrese nota del tercer trimestre");
-    if ((nota3 >=0) && (nota3 <=10));
+    if ((nota3 >= 0) && (nota3 <= 10));
     break;
-}while ((nota3 < 0) || (nota3 <10));
+} while ((nota3 < 0) || (nota3 < 10));
 
-const trimestres=3;
+const trimestres = 3;
 
-var sum_notas= (nota1+nota2+nota3);
+var sum_notas = (nota1 + nota2 + nota3);
 
-var nota_final= sum_notas / trimestres ;
+var nota_final = sum_notas / trimestres;
 
-if(nota_final >=6) {
+if (nota_final >= 6) {
     alert("¡¡Felicitaciones esta aprobado!!");
 
-    }else{
-        alert("Desaprobado, debe de rendir recuperatorio");
+} else {
+    alert("Desaprobado, debe de rendir recuperatorio");
 }
 
 
